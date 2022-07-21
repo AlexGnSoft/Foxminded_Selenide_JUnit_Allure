@@ -12,7 +12,6 @@ public class BaseTestConfiguration {
      @BeforeEach
      public void openBrowser(){
          PropertiesFile pfile = new PropertiesFile();
-
          pfile.getBrowser(); // choose browser
          Configuration.browserSize = pfile.getBrowserSize(); //set browser size
 
