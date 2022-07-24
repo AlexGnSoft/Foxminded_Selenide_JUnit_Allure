@@ -34,7 +34,6 @@ public class DepartmentsTest extends BaseTestConfiguration {
         sleep(1000);
         DepartmentPage.newDepartmentBtn.click();
 
-
         //Fill in department title
         DepartmentPage.titleField.setValue(departmentTitle);
 

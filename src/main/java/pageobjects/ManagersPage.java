@@ -33,7 +33,6 @@ public class ManagersPage {
     public static final SelenideElement paginationNextBtn = $(By.xpath("//a[@aria-label='Next page']"));
     public static final SelenideElement paginationPreviousBtn = $(By.xpath("//a[@aria-label='Previous page']"));
 
-
     /**
      * Method enters all manager's fields
      */
