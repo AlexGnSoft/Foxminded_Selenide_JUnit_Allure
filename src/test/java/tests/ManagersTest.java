@@ -45,6 +45,7 @@ public class ManagersTest extends BaseTestConfiguration {
         //Click on Managers tab > 'New Manager+'button
         MenuDashboard.closeButton.click();
         MenuDashboard.minimizeSideBarBtn.click();
+        sleep(1000);
         MenuDashboard.managersTab.click();
         sleep(1000);
         ManagersPage.newManagerBtn.click();
